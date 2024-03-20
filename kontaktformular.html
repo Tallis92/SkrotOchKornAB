@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt formulär</title>
+</head>
+<body>
+
+    <h1>Kontaktformulär</h1>
+    <a href="index.html">Start</a>
+    <br>
+    <a href="produktsida.html">Produkter</a>
+    <br>
+    <a href="kontaktaoss.html">Kontakta oss</a>
+    <br>
+    <a href="kontaktformular.html">Kontakformulär</a><br>
+    <a href="media.html">Mediasida</a><br><br>
+    <form>
+        <label for="namn">Ditt namn: </label><br>
+        <input type="text" id="namn" name="namn"><br>
+
+        <label for="adress">Ange adress: </label><br>
+        <input type="text" id="adress" name="adress"><br>
+
+        <label for="email">Ange Epost: </label><br>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="telefon">Ange telefonnummer: </label><br>
+        <input type="number" id="telefon" name="telefon"><br>
+
+        <p>Privatkund eller företag?</p>
+        <input type="radio" name="kund" id="privat" value="privat">
+        <label for="privat">Privatkund</label><br>
+
+        <input type="radio" name="kund" id="foretag" value="foretag">
+        <label for="foretag">Företag</label>
+
+        <p>Storlek på företag:</p>
+        <input type="radio" name="storlek" id="litet" value="litet">
+        <label for="litet">Litet företag(ca 1-100 anställda)</label><br>
+
+        <input type="radio" name="storlek" id="mellan" value="mellan">
+        <label for="mellan">Mellanstort företag(ca 101-1000 anställda)</label><br>
+
+        <input type="radio" name="storlek" id="stort" value="stort">
+        <label for="stort">Stort företag(ca mer än 1000 anställda)</label><br><br>
+        
+        <label for="fragaoss">Ställ en fråga till oss!</label><br>
+        <textarea name="fragaoss" id="fragaoss" cols="80" rows="8"></textarea><br>
+
+        <input type="checkbox" id="nyhetsbrev" name="nyhetsbrev" value="ja">
+        <label for="nyhetsbrev">Vill du ha nyhetsbrev?</label><br>
+
+        <input type="checkbox" id="telefonkontakt" name="telefonkontakt" value="ja">
+        <label for="telefonkontakt">Vill du att vi ringer upp dig?</label>
+    </form>
+</body>
+</html>
