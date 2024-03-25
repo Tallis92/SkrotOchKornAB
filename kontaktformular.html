@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt formulär</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Kontaktformulär</h1>
-    <a href="index.html">Start</a>
-    <br>
-    <a href="produktsida.html">Produkter</a>
-    <br>
-    <a href="kontaktaoss.html">Kontakta oss</a>
-    <br>
-    <a href="kontaktformular.html">Kontakformulär</a><br>
-    <a href="media.html">Mediasida</a><br><br>
+    <header class="mainheader">
+        
+        <h1>Skrot & Korn AB</h1>
+        <ul class="mainul">
+            <li class="mainli"><a href="index.html" class="maina">Start</a></li>
+            <li class="mainli"><a href="produktsida.html" class="maina">Produkter</a></li>
+            <li class="mainli"><a href="kontaktaoss.html" class="maina">Kontakta oss</a></li>
+            <li class="mainli"><a href="kontaktformular.html" class="maina">Kontakformulär</a></li>
+            <li class="mainli"><a href="media.html" class="maina">Mediasida</a><br></li>
+        </ul>
+    </header>
     <form action="http://primat.se/services/sendform.aspx?xid=register&xmail=mail@mail.mail" method="post">
         <label for="namn">Ditt namn: </label><br>
         <input type="text" id="namn" name="namn"><br>

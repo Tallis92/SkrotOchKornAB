@@ -1,0 +1,55 @@
+.mainheader{
+    background-image: url("../images/skrot&kornab.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 0px;
+    background-attachment: fixed;
+    height:300px;
+}
+
+.mainul{
+    margin-top:200px;
+}
+.mainli{
+    display:inline;
+}
+.maina{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.5em;
+    padding: 1em;
+    text-decoration: none;
+    background-color: aqua;
+    border-width: 5px;
+    border-color:darkblue;
+    border-radius: 15px;
+    color:black;
+}
+
+a:hover{
+    background-color: orange;
+}
+
+table{
+    border-color:darkgreen;
+    border-width: 5px;
+    color:saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-block-start-color: darkgreen;
+    border-block-end-color: darkgreen;
+}
+
+th{
+    border-color:darkgreen;
+}
+
+.mainbody{
+    margin:0px;
+    padding:0px;
+}
+
+.mediabody{
+    background-image: url("../images/filmroll.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
