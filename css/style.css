@@ -1,5 +1,7 @@
 
-
+*{
+    border: 1 solid hotpink
+}
 header{
     background-image: url("../images/skrot&kornab.webp");
     background-repeat: no-repeat;
@@ -39,10 +41,12 @@ header{
     justify-content: space-around;
     width: 140px;
     margin:5px;
+    align-items: center;
+    
 }
 
-.menubutton{
-    margin-top:10px;
+.menulink{
+    margin-top:30px;
     background-color: orange;
     border:5px dotted orangered;
     border-radius: 12px;
@@ -52,6 +56,8 @@ header{
     padding:5px;
     padding-top:15px;
     text-align: center;
+    position: relative;
+    left:-25px;
 }
 
 main{

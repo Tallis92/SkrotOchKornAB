@@ -25,9 +25,14 @@
         <div class="priceC">1500kr/dag</div>
 
         <div class="pricemoms">Pris(inklusive moms)</div>
-        <div class="pricemomsA">2250 kr/dag</div>
-        <div class="pricemomsB">2750 kr/dag</div>
-        <div class="pricemomsC">1875 kr/dag</div>
+        <div class="pricemomsA"><input type="checkbox" id="selecta" onchange="vehiclePriceA(2250)"> 2250 kr/dag<br>Antal dagar: 
+            <input type="range" id="renta" min="1" max="50" oninput="vehicleRentA(this.value)"><div id="displaynumberofdaysa">1</div></div>
+
+        <div class="pricemomsB"><input type="checkbox" id="selectb" onchange="vehiclePriceB(2750)"> 2750 kr/dag<br>Antal dagar: 
+            <input type="range" id="rentb" min="1" max="50" oninput="vehicleRentB(this.value)"><div id="displaynumberofdaysb">1</div></div>
+
+        <div class="pricemomsC"><input type="checkbox" id="selectc" onchange="vehiclePriceC(1875)"> 1875 kr/dag<br>Antal dagar: 
+            <input type="range" id="rentc" min="1" max="50" oninput="vehicleRentC(this.value)"><div id="displaynumberofdaysc">1</div></div>
 
         <div class="hp">Hästkrafter</div>
         <div class="hpA">400 hk</div>
@@ -40,6 +45,9 @@
         <div class="mllC">3.5</div>
         
     </main>
+
+    <h3>Totalt pris: <span id="totalprice">0</span> <span>kr</span></h3>
     
+    <script src="scripts/script.js"></script>
 </body>
 </html>
